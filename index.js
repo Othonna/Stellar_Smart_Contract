@@ -6,13 +6,14 @@
 
 // création d'une interface 
 // il te demande d'abord qui tu es ?
-// faire différentes opération 
+// faire différentes opérations 
+ 
 const inquirer = require('inquirer');
-const createEscrow = require('./functions/alice/create-escrow.js');
-const fundEscrow = require('./functions/alice/fund-escrow.js');
-const releaseFunds = require('./functions/alice/release-funds.js');
-const setEscrowMultisig = require('./functions/alice/set-escrow-multisig.js');
-const signFundsRelease = require('./functions/alice/sign-funds-release.js');
+const createEscrow = require('./functions/bob/create-escrow.js.js');
+const fundEscrow = require('./functions/bob/fund-escrow.js.js');
+const releaseFunds = require('./functions/bob/release-funds.js.js');
+const setEscrowMultisig = require('./functions/bob/set-escrow-multisig.js.js');
+const signFundsRelease = require('./functions/bob/sign-funds-release.js.js');
 const withdraw = require('./functions/bob/withdraw.js');
 
 const start = async () => {
@@ -83,7 +84,7 @@ const start = async () => {
         {
           type: 'list',
           name: 'action',
-          message: 'What do you want to do?',
+          message: '¿What do you want to do?',
           choices: [
             {
               name: 'Withdraw funds',

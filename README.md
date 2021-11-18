@@ -1,5 +1,5 @@
 ===================================================
-## Stellar Smart Contract
+## Stellar Smart Contract (https://stellar.github.io/js-stellar-sdk/index.html)
 ===================================================
 ## Install 
 
@@ -39,3 +39,8 @@ MARIE_SECRET=SAKA2VDVZWSLQVUDIN7J2P4EITZ72JJQ75RVIDR3B6BORBEPMVG3P2VW
 ```terminal
 npm start
 ```
+
+===================================================
+
+## answer the questions to create the contract
+
