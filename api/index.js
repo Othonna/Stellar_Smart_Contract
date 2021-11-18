@@ -1,5 +1,5 @@
-const StellarSdk = require ('stellar-sdk');
+const StellarSDK = require('stellar-sdk');
 
-const server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
+const server = new StellarSDK.Server('https://horizon-testnet.stellar.org');
 
-export { server };
+module.exports = { server };
